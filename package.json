@@ -1,0 +1,17 @@
+{
+  "name": "snake-garden",
+  "version": "1.0.0",
+  "description": "A small, private-by-default Snake game powered by Node.js and Canvas.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js && node --check public/engine.js"
+  }
+}
